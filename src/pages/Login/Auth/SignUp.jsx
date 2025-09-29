@@ -32,17 +32,42 @@ const SignUp = () => {
     );
 
     if (!allFieldsFilled) {
-      toast.error('Please fill all field', { position: 'top-right' });
+      toast.error('Please fill all field', {
+        position: 'top-right',
+        style: {
+          background: '#123',
+          color: '#fff',
+          fontSize: '12px',
+          padding: '5px',
+          borderRadius: '5px',
+        },
+      });
       return;
     }
 
     if (formData.password !== formData.confirmPassword) {
-      toast.error('Passwords do not match', { position: 'top-right' });
+      toast.error('Passwords do not match', {
+        position: 'top-right',
+        style: {
+          background: '#123',
+          color: '#fff',
+          fontSize: '12px',
+          padding: '5px',
+          borderRadius: '5px',
+        },
+      });
       return;
     }
 
     toast.success('Signup successful! Please login...', {
       position: 'top-right',
+      style: {
+        background: '#123',
+        color: '#fff',
+        fontSize: '12px',
+        padding: '5px',
+        borderRadius: '5px',
+      },
       autoClose: 2000,
       onClose: () => navigate('/Login'),
     });
