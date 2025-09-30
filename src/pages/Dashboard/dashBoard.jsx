@@ -85,68 +85,90 @@ const Dashboard = () => {
           What <span className="text-[#DAA71F]">We</span> Are
         </h1>
 
-        <div className="my-10 flex gap-10 grid grid-cols-4 justify-center items-center">
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
-          </div>
+        <div className="my-10 gap-10 grid justify-center items-center">
+          <div className="grid-cols-4 gap-10 grid justify-center items-center">
+            {/* first card */}
+            <div className="text-sm py-7 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
+              <h3 className="w-40 py-2">
+                Drive instant traffic and sales with laser-targeted ad
+                campaigns.
+              </h3>
+            </div>
 
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector01} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
-          </div>
+            {/* second card */}
+            <div className="text-sm py-5 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector01} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">
+                Social Media Management
+              </h2>
+              <h3 className="w-40 py-1">
+                Turn followers into loyal fans with content that connects and
+                converts.
+              </h3>
+            </div>
 
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector02} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
-          </div>
+            {/* third card */}
+            <div className="text-sm py-6 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector02} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">SEO Services</h2>
+              <h3 className="w-40 py-1">
+                Boost your search rankings and get found by the right people,
+                faster.
+              </h3>
+            </div>
 
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector03} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
+            {/* four card */}
+            <div className="text-sm py-6 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector03} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">
+                Video Production & Content Creation
+              </h2>
+              <h3 className="w-40 py-1">
+                Captivate your audience with powerful visuals and
+                scroll-stopping content
+              </h3>
+            </div>
           </div>
+          <div className="flex justify-center item-center mx-auto gap-10">
+            {/* fifth card */}
+            <div className="text-sm py-5 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector04} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">Digital Marketing</h2>
+              <h3 className="w-40 py-2">
+                We blend data and creativity to fuel your brand’s digital
+                growth.
+              </h3>
+            </div>
 
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector04} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
-          </div>
+            {/* sixth card */}
+            <div className="text-sm py-5 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img src={Vector05} alt="vector" className="w-5 mx-auto py-3" />
+              <h2 className="text-[14px] text-[#DAA71F]">Copywriting</h2>
+              <h3 className="w-40 py-2">
+                Crafting words that spark interest, build trust, and drive
+                action.
+              </h3>
+            </div>
 
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img src={Vector05} alt="vector" className="w-5 mx-auto py-3" />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
-          </div>
-
-          <div className="text-sm py-7 rounded-[20px] px-7 bg-[#262626] flex-1 justify-center">
-            <img
-              src={Vector06}
-              alt="vector"
-              className="w-3 h-12 mx-auto py-3"
-            />
-            <h2 className="text-[14px] text-[#DAA71F]">Paid Ads (PPC)</h2>
-            <h3 className="w-40 py-2">
-              Drive instant traffic and sales with laser-targeted ad campaigns.
-            </h3>
+            {/* seventh card */}
+            <div className="text-sm py-3 rounded-[10px] px-7 bg-[#262626] flex-1 justify-center">
+              <img
+                src={Vector06}
+                alt="vector"
+                className="w-3 h-12 mx-auto py-3"
+              />
+              <h2 className="text-[14px] text-[#DAA71F]">Web Design</h2>
+              <h3 className="w-40 py-2">
+                Build sleek, responsive websites that wow visitors and win
+                customers.
+              </h3>
+            </div>
           </div>
         </div>
       </section>
+
       <section className="h-[70vh] max-w-6xl mx-auto bg-[url('/src/assets/firstbg.png')] bg-cover bg-center grid items-center justify-center px-15">
         <h1 className="text-center text-2xl font-bold">helloworld</h1>
       </section>
