@@ -1,5 +1,6 @@
 import React from 'react';
 import FirstImg from '../../assets/firstimg.png';
+import SecondImg from '../../assets/image 4.png';
 import { useNavigate } from 'react-router-dom';
 import Vector from '../../assets/Vector.png';
 import Vector01 from '../../assets/Vector 01.png';
@@ -169,8 +170,36 @@ const Dashboard = () => {
         </div>
       </section>
 
-      <section className="h-[70vh] max-w-6xl mx-auto bg-[url('/src/assets/firstbg.png')] bg-cover bg-center grid items-center justify-center px-15">
-        <h1 className="text-center text-2xl font-bold">helloworld</h1>
+      <section className="h-[50vh] max-w-6xl mx-auto bg-[url('/src/assets/bgback.png')] bg-cover bg-center ">
+        <div className="bg-[rgba(124,17,25,0.81)] h-[50vh] w-full max-w-6xl mx-auto bg-cover bg-center flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8">
+          {/* Left Section */}
+          <div className="w-full md:w-1/2 text-center md:text-left">
+            <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-white leading-tight pb-4">
+              Launch Your Next Big Win Today!
+            </h1>
+            <h2 className="font-poppins font-medium text-sm py-3 sm:text-base md:text-lg text-white/70">
+              From strategy to success, Get Result Agency is built to move your
+              brand forward fast.
+            </h2>
+            <div className="mt-6">
+              <button
+                className="bg-[#DAA71F] text-black px-6 py-3 rounded-md text-sm sm:text-base font-medium hover:bg-[#a30b0b] hover:text-white transition duration-300"
+                onClick={Click}
+              >
+                Let's Get Started
+              </button>
+            </div>
+          </div>
+
+          {/* Right Section */}
+          <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
+            <img
+              src={SecondImg}
+              alt="welcome"
+              className="w-[80%] md:w-[100%] h-auto object-contain"
+            />
+          </div>
+        </div>
       </section>
       <section className="h-[70vh] max-w-6xl mx-auto bg-[url('/src/assets/firstbg.png')] bg-cover bg-center grid items-center justify-center px-15">
         <h1 className="text-center text-2xl font-bold">helloworld</h1>
